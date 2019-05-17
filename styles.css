@@ -169,23 +169,40 @@
     }
 
     #features {
-      margin-top: 30px;
+        margin-top: 30px;
+        margin: auto;
+        display: block;
+        //outline: 1px solid aqua;
+        text-align: center;
     }
 
+/*
     #features .icon {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 125px;
+      //height: 125px;
       width: 20vw;
       color: darkorange;
     }
+*/
+
+/*
+    #features .iconDiv{
+
+        height: auto;
+        padding-bottom: 10px;
+        font-size: 30px;
+        color: darkorange;
+    
+    }
 
     @media (max-width: 550px) {
-      #features .icon {
+      #features .iconDiv {
         display: none;
       }
     }
+*/
 
     #features .desc {
       display: flex;
@@ -229,9 +246,9 @@
       justify-content: center;
     }
 
-    #pricing #tenor,
-    #pricing #bass,
-    #pricing #valve {
+    #pricing #sun,
+    #pricing #sand,
+    #pricing #sea {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -242,9 +259,9 @@
       border-radius: 3px;
     }
 
-    #pricing #tenor .level,
-    #pricing #bass .level,
-    #pricing #valve .level {
+    #pricing #sun .level,
+    #pricing #sand .level,
+    #pricing #sea .level {
       background-color: #ddd;
       color: black;
       padding: 15px 0;
@@ -253,36 +270,36 @@
       font-weight: 700;
     }
 
-    #pricing #tenor h2,
-    #pricing #bass h2,
-    #pricing #valve h2 {
+    #pricing #sun h2,
+    #pricing #sand h2,
+    #pricing #sea h2 {
       margin-top: 15px;
     }
 
-    #pricing #tenor ol,
-    #pricing #bass ol,
-    #pricing #valve ol {
+    #pricing #sun ol,
+    #pricing #sand ol,
+    #pricing #sea ol {
       margin: 15px 0;
     }
 
-    #pricing #tenor ol li,
-    #pricing #bass ol li,
-    #pricing #valve ol li {
+    #pricing #sun ol li,
+    #pricing #sand ol li,
+    #pricing #sea ol li {
       padding: 5px 0;
     }
 
-    #pricing #tenor button,
-    #pricing #bass button,
-    #pricing #valve button {
+    #pricing #sun button,
+    #pricing #sand button,
+    #pricing #sea button {
       border: 0;
       margin: 15px 0;
       background-color: #f1c40f;
       font-weight: 400;
     }
 
-    #pricing #tenor button:hover,
-    #pricing #bass button:hover,
-    #pricing #valve button:hover {
+    #pricing #sun button:hover,
+    #pricing #sand button:hover,
+    #pricing #sea button:hover {
       background-color: orange;
       transition: background-color 1s;
     }
@@ -292,9 +309,9 @@
         flex-direction: column;
       }
 
-      #pricing #tenor,
-      #pricing #bass,
-      #pricing #valve {
+      #pricing #sun,
+      #pricing #sand,
+      #pricing #sea {
         max-width: 300px;
         width: 100%;
         margin: 0 auto;
